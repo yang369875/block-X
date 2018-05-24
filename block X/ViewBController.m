@@ -20,7 +20,8 @@
 
 @implementation ViewBController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.txtField = [[UITextField alloc]initWithFrame:CGRectMake(20, SCREEN_HEIGHT/4, SCREEN_WIDTH/2, 20)];
@@ -35,7 +36,7 @@
 
 -(void)textFieldDidBeginEditing:(UITextField *)textField
 {
-    NSLog(@"self.textDict----> is %@",self.textDict);
+    NSLog(@"VCB self.textDict----> is %@",self.textDict);
 }
 - (void)textFieldDidEndEditing:(UITextField *)textField
 {
